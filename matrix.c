@@ -14,7 +14,8 @@ void populateVec(int v[], int length){
 }
 void populateMatrix(int m[ROWS][COLUMNS]){
     int i, j;
-    srand(time(NULL)+(time_t)m);
+    //srand(time(NULL));
+    srand(1);
     for(i = 0; i < ROWS; i++){
         for(j = 0; j < COLUMNS; j++){
             m[i][j] = rand() % MAX_RAND;

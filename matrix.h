@@ -4,9 +4,9 @@
 #define FILL_L3_CACHE 2804 //L3 == 30MB (sqrt(30*1024*1024/4) = 2804)
 #define OVERFLOW_L3_CACHE 3000
 
-#define ROWS FILL_L1_CACHE
-#define COLUMNS FILL_L1_CACHE
-#define MAX_RAND INT_MAX
+#define ROWS OVERFLOW_L3_CACHE
+#define COLUMNS OVERFLOW_L3_CACHE
+#define MAX_RAND (INT_MAX >> 24)
 
 void populateVec(int v[], int length);
 void populateMatrix(int m[ROWS][COLUMNS]);
