@@ -5,7 +5,7 @@
 
 void populateVec(int v[], int length){
     int i;
-    srand(time(NULL)+(time_t)v); //using the addres of each vec to avoid same values
+    srand(time(NULL)); //using the addres of each vec to avoid same values
     for(i = 0; i < length; i++){
         
         v[i] = rand() % MAX_RAND;
