@@ -16,32 +16,16 @@ pNodoA* InsereArvore(pNodoA *a, int ch){
     return a;
 }
 
-int PreFixado(pNodoA *a){
-    if (a!= NULL){
-
-        printf("%d\n",a->info);
-
-        PreFixado(a->esq);
-        PreFixado(a->dir);
+int search(pNodoA* a, int data) {
+    if (a == NULL) {
+        return -1;
     }
-}
+    if (a->info == data){
+        return data;
 
-int Count(pNodoA *a, int *c){
-    if (a!= NULL){
-        Count(a->esq, c);
-        Count(a->dir, c);
-        return ++(*c);
     }
-}
-
-void ShowLevels(pNodoA *a, int n){
-    if (a!= NULL){
-        for(int i = n; i >=  0; i--){
-            printf("=");
-        }
-        printf("%d\n", a->info);
-
-        ShowLevels(a->esq, n+1);
-        ShowLevels(a->dir, n+1);
-    }
+    if (data < a->info)
+        return search(a->esq,data);
+    else
+        return search(a->dir,data);
 }

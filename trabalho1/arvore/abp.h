@@ -1,16 +1,12 @@
+#define N_DATA 10000000
 
-typedef struct TNodoA{
- int info;
- struct TNodoA *esq;
- struct TNodoA *dir;
+typedef struct TNodoA {
+    int info;
+    struct TNodoA* esq;
+    struct TNodoA* dir;
 } pNodoA;
 
 
 
-pNodoA* InsereArvore(pNodoA *a, int ch);
-
-int PreFixado(pNodoA *a);
-
-int Count(pNodoA *a, int *c);
-
-void ShowLevels(pNodoA *a, int n);
+pNodoA* InsereArvore(pNodoA* a, int ch);
+int search(pNodoA* a, int data);
