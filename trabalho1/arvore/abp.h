@@ -1,4 +1,4 @@
-#define N_DATA 10000000
+#define N_DATA 36*1024*1024/4 //36MB to overflow cache L3
 
 typedef struct TNodoA {
     int info;

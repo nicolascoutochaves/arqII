@@ -1,13 +1,8 @@
 #include <limits.h>
-#define FILL_L1_CACHE 443 //L1 == 768KB (sqrt(768*1024/4) = 443)
-#define FILL_L2_CACHE 886 //L2 == 3MB (sqrt(3*1024*1024/4) = 886)
-#define FILL_L3_CACHE 2804 //L3 == 30MB (sqrt(30*1024*1024/4) = 2804)
-#define OVERFLOW_L3_CACHE 3000
-
-#define ROWS FILL_L3_CACHE
-#define COLUMNS FILL_L3_CACHE
-#define MAX_RAND (INT_MAX >> 24)
-
+#define N_DATA (6*1024)/2 //36MB to overflow cache L3 (divided by 2 cause the sizeof int is 4 bytes and ROWS/2 * COLUNS/2 = ROWS*COLUNS/4)
+#define ROWS N_DATA
+#define COLUMNS N_DATA
+#define MAX_RAND 20 //small number because the focus is to measure the time of memory access and cache hit/miss, not the quality of the algorithm
 void populateVec(int v[], int length);
 void populateMatrix(int m[ROWS][COLUMNS]);
 void printMatrix(int m[ROWS][COLUMNS]);

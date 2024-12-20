@@ -1,0 +1,134 @@
+==============================================================================================================
+================================================ Vetor: ======================================================
+
+ Performance counter stats for './a.out':
+
+       847.435.805      cycles:u
+     3.529.629.049      instructions:u                   #    4,17  insn per cycle
+        10.167.274      cache-misses:u                   #   61,86% of all cache refs
+        16.436.841      cache-references:u
+       415.306.585      L1-dcache-loads:u
+        18.593.401      L1-dcache-load-misses:u          #    4,48% of all L1-dcache accesses
+             9.795      page-faults:u
+
+       0,413805809 seconds time elapsed
+
+       0,374932000 seconds user
+       0,030399000 seconds sys
+
+ Performance counter stats for './a.out':
+
+       850.624.980      cycles:u
+     3.529.629.045      instructions:u                   #    4,15  insn per cycle
+        10.136.209      cache-misses:u                   #   61,38% of all cache refs
+        16.513.313      cache-references:u
+       415.304.682      L1-dcache-loads:u
+        18.657.209      L1-dcache-load-misses:u          #    4,49% of all L1-dcache accesses
+             9.795      page-faults:u
+
+       0,349374008 seconds time elapsed
+
+       0,332698000 seconds user
+       0,010081000 seconds sys
+
+
+ Performance counter stats for './a.out':
+
+       847.853.981      cycles:u
+     3.529.629.045      instructions:u                   #    4,16  insn per cycle
+         9.880.592      cache-misses:u                   #   60,27% of all cache refs
+        16.394.058      cache-references:u
+       415.306.600      L1-dcache-loads:u
+        18.571.522      L1-dcache-load-misses:u          #    4,47% of all L1-dcache accesses
+             9.794      page-faults:u
+
+       0,393268101 seconds time elapsed
+
+       0,343479000 seconds user
+       0,040409000 seconds sys
+
+ Performance counter stats for './a.out':
+
+       924.788.666      cycles:u
+     3.529.629.048      instructions:u                   #    3,82  insn per cycle
+         8.746.441      cache-misses:u                   #   52,27% of all cache refs
+        16.732.149      cache-references:u
+       415.308.558      L1-dcache-loads:u
+        19.468.923      L1-dcache-load-misses:u          #    4,69% of all L1-dcache accesses
+             9.796      page-faults:u
+
+       0,403497100 seconds time elapsed
+
+       0,353514000 seconds user
+       0,040401000 seconds sys
+
+==============================================================================================================
+================================================ Arvore: =====================================================
+
+
+Performance counter stats for './a.out':
+
+ 5.994.894.863.858      cycles:u
+ 5.029.747.093.965      instructions:u                   #    0,84  insn per cycle
+        27.394.936      cache-misses:u                   #    0,00% of all cache refs
+   587.321.292.921      cache-references:u
+ 1.579.801.515.029      L1-dcache-loads:u
+   630.628.743.832      L1-dcache-load-misses:u          #   39,92% of all L1-dcache accesses
+            74.107      page-faults:u
+
+    2244,087011393 seconds time elapsed
+
+    2243,744920000 seconds user
+       0,249992000 seconds sys
+
+
+
+==============================================================================================================
+================================================ Matriz: =====================================================
+
+
+ Performance counter stats for './a.out':
+
+    33.181.830.368      cycles:u
+   101.661.798.768      instructions:u                   #    3,06  insn per cycle
+       988.480.253      cache-misses:u                   #   51,53% of all cache refs
+     1.918.088.624      cache-references:u
+    29.004.466.574      L1-dcache-loads:u
+     1.831.952.485      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
+            19.510      page-faults:u
+
+      12,519796303 seconds time elapsed
+
+      12,439586000 seconds user
+       0,070053000 seconds sys
+
+
+ Performance counter stats for './a.out':
+
+    34.105.815.577      cycles:u
+   101.661.798.754      instructions:u                   #    2,98  insn per cycle
+     1.101.808.460      cache-misses:u                   #   56,44% of all cache refs
+     1.952.298.268      cache-references:u
+    29.004.627.108      L1-dcache-loads:u
+     1.832.078.131      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
+            19.397      page-faults:u
+
+      13,514778735 seconds time elapsed
+
+      13,423842000 seconds user
+       0,080022000 seconds sys
+
+ Performance counter stats for './a.out':
+
+    34.078.595.032      cycles:u
+   101.661.798.453      instructions:u                   #    2,98  insn per cycle
+     1.021.647.282      cache-misses:u                   #   53,12% of all cache refs
+     1.923.260.917      cache-references:u
+    29.004.544.480      L1-dcache-loads:u
+     1.832.436.973      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
+            19.138      page-faults:u
+
+      13,128953795 seconds time elapsed
+
+      13,028330000 seconds user
+       0,090057000 seconds sys
