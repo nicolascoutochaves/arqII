@@ -9,7 +9,6 @@
         16.436.841      cache-references:u
        415.306.585      L1-dcache-loads:u
         18.593.401      L1-dcache-load-misses:u          #    4,48% of all L1-dcache accesses
-             9.795      page-faults:u
 
        0,413805809 seconds time elapsed
 
@@ -24,7 +23,6 @@
         16.513.313      cache-references:u
        415.304.682      L1-dcache-loads:u
         18.657.209      L1-dcache-load-misses:u          #    4,49% of all L1-dcache accesses
-             9.795      page-faults:u
 
        0,349374008 seconds time elapsed
 
@@ -40,7 +38,6 @@
         16.394.058      cache-references:u
        415.306.600      L1-dcache-loads:u
         18.571.522      L1-dcache-load-misses:u          #    4,47% of all L1-dcache accesses
-             9.794      page-faults:u
 
        0,393268101 seconds time elapsed
 
@@ -55,7 +52,6 @@
         16.732.149      cache-references:u
        415.308.558      L1-dcache-loads:u
         19.468.923      L1-dcache-load-misses:u          #    4,69% of all L1-dcache accesses
-             9.796      page-faults:u
 
        0,403497100 seconds time elapsed
 
@@ -74,7 +70,6 @@ Performance counter stats for './a.out':
    587.321.292.921      cache-references:u
  1.579.801.515.029      L1-dcache-loads:u
    630.628.743.832      L1-dcache-load-misses:u          #   39,92% of all L1-dcache accesses
-            74.107      page-faults:u
 
     2244,087011393 seconds time elapsed
 
@@ -95,7 +90,6 @@ Performance counter stats for './a.out':
      1.918.088.624      cache-references:u
     29.004.466.574      L1-dcache-loads:u
      1.831.952.485      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
-            19.510      page-faults:u
 
       12,519796303 seconds time elapsed
 
@@ -111,7 +105,6 @@ Performance counter stats for './a.out':
      1.952.298.268      cache-references:u
     29.004.627.108      L1-dcache-loads:u
      1.832.078.131      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
-            19.397      page-faults:u
 
       13,514778735 seconds time elapsed
 
@@ -126,7 +119,6 @@ Performance counter stats for './a.out':
      1.923.260.917      cache-references:u
     29.004.544.480      L1-dcache-loads:u
      1.832.436.973      L1-dcache-load-misses:u          #    6,32% of all L1-dcache accesses
-            19.138      page-faults:u
 
       13,128953795 seconds time elapsed
 
